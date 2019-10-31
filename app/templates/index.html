@@ -6,19 +6,19 @@
     {{ super() }}
     <link href="https://fonts.googleapis.com/css?family=Ranga" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Monoton" rel="stylesheet"
-    <link href="https://fonts.googleapis.com/css?family=Cormorant+Upright" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Cormorant+" rel="stylesheet">
     <link rel="stylesheet" href="{{url_for('static',filename='css/index.css')}}">
 {%endblock%}
 <!-- Content block -->
 {%block content%}
-<div class="jumbotron text-center" style="background-color: #E63462; color: #fff; padding: 55px 25px; font-family: 'Monoton', cursive;">
+<div class="jumbotron text-center" style="background-color: rgb(218, 230, 52); color: #fff; padding: 55px 25px; font-family: 'Times New Roman', Times, serif;">
     <h1>One Minute Pitch</h1>
 </div>
 <div class="container" style="padding-bottom: 20px;">
     <a href="{{url_for('main.new_pitch')}}" class="btn btn-success">Create pitch</a>
 </div>
 
-<div class="container" style= "font-family: 'Cormorant Upright', serif;">
+<div class="container" style= "font-family: 'Times New Roman', Times, serif; font-weight: 1000;">
     <div class="row">
         <div class="col-md-4">
             <div class="well well-lg">
