@@ -10,7 +10,7 @@
 * As a user, you can receive a welcoming email once I sign up.
 * As a user, you can view the pitches I have created in my profile page.
 * As a user, you can comment on the different pitches and leave feedback.
-As a user, you can submit a pitch in any category.
+* As a user, you can submit a pitch in any category.
 As a user, you can view the different categories.
 
 ![](header.png)
